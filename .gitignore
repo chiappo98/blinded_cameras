@@ -1,2 +1,6 @@
 blind_cameras_dataset/drdf_arrays_B.pkl
 blind_cameras_dataset/drdf_arrays.pkl
+blind_cameras_dataset/blinded.npy
+blinded.pdf
+blinded_filtered.pdf
+blinded_2.pdf
