@@ -30,7 +30,7 @@ response.drdf
 20
 
 
-files in chiappon@131.154.161.32:/storage/gpfs_data/neutrino/SAND-LAr/SAND-LAr-TICALSIM-PROD/GRAIN/blindcam
+files in chiappon@131.154.161.32:/storage/gpfs_data/neutrino/SAND-LAr/SAND-LAr-OPTICALSIM-PROD/GRAIN/blindcam
 
 
 scp -P 22 ../input_files/sensors20.root chiappon@131.154.161.32:/storage/gpfs_data/neutrino/SAND-LAr/SAND-LAr-OPTICALSIM-PROD/GRAIN/blindcam/
