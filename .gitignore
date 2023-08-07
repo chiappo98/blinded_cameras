@@ -5,3 +5,7 @@ blinded.pdf
 blinded_filtered.pdf
 blinded_2.pdf
 blind_cameras_dataset/blinded_filtered.npy
+blind_cameras_dataset/inner_ph.npy
+blind_cameras_dataset/simulation.npy
+cnn.pdf
+nn.pdf
