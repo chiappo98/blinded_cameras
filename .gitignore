@@ -9,3 +9,12 @@ blind_cameras_dataset/inner_ph.npy
 blind_cameras_dataset/simulation.npy
 cnn.pdf
 nn.pdf
+model.json
+model_highRoc.json
+model.h5
+model_highRoc.h5
+model_gen.json
+model_gen.h5
+model_3Conv.json
+model_3Conv.h5
+cnn_best.pdf
