@@ -18,3 +18,4 @@ model_gen.h5
 model_3Conv.json
 model_3Conv.h5
 cnn_best.pdf
+cnn_norm.pdf
