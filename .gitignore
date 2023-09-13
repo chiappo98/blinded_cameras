@@ -34,3 +34,6 @@ blind_cameras_dataset/simulation_0.npy
 blind_cameras_dataset/inner_ph_25.npy
 blind_cameras_dataset/inner_ph_1.npy
 blind_cameras_dataset/inner_ph_0.npy
+cnn_1p2.pdf
+blind_cameras_dataset/inner_ph_1_old.npy
+blind_cameras_dataset/simulation_1_old.npy
