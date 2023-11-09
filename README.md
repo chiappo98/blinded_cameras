@@ -3,28 +3,28 @@
   - [The physics case](#the-physics-case)
   - [How it works](#how-it-works)
 - [Before starting](#before-starting)
-$  - [Account request](#account-request)$
-  - [Required softwares](#required-softwares)$
+  <!-- - [Account request](#account-request)
+  - [Required softwares](#required-softwares) -->
     - [The drdf module](#the-drdf-module)
   - [Algorithm installation](#algorithm-installation)
   - [Download input files](#download-input-files)
 - [Running fast_resp](#running-fast_resp)
 
-$- [Submission on batch system](#submission-on-batch-system)
+<!-- - [Submission on batch system](#submission-on-batch-system)
   - [HTCondor](#htcondor)
   - [Launching a production](#launching-a-production)
     - [Input file](#input-file)
     - [Job size](#job-size)
     - [Response configuration](#response-configuration)
     - [Production folder](#production-folder)
-- [Output analysis](#output-analysis)$
+- [Output analysis](#output-analysis) -->
 
 # CNN algorithm for dazzled cameras recognition
 
 The aim of this algorithm is to identify the peculiar signal pattern produced in a SiPM matrix by a passing particle which releases some of its energy directly into the sensor or just nearby, resulting in a loss of efficiency.
 The SiPM matrix is one of the 58 matrices which form the photo-detection system of the GRAIN detector, a vessel filled with liquid Argon (LAr) and surrounded by Silicon Photomultiplier (SiPM) sensors. It is part of the DUNE experiment, devoted to neutrino detection. 
 
-$In GRAIN, SiPMs are arranged in 76 matrices (called cameras) of 32x32 sensors each, covering the internal walls of the vessel. Their scope is to detect the scintillation light produced by charged particles generated from neutrino interactions. $
+<!-- In GRAIN, SiPMs are arranged in 76 matrices (called cameras) of 32x32 sensors each, covering the internal walls of the vessel. Their scope is to detect the scintillation light produced by charged particles generated from neutrino interactions. -->
 
 ## The physics case
 
@@ -80,7 +80,7 @@ In the following two different algorithms are presented: a NN model, which tries
 
 ## How it works
 
-%.The read-out chain for a SiPM detector is made of different steps. This program aims to produce only a fast and rough simulation of the photon detection on SiPM sensors. Among all scintillation photons produced, the ones which are effectively detected constitute only a small fraction. Supposing that the propagation of the photons has been already simulated, those photons which manage to reach the walls of the detector may or may not be detected.
+<!-- .The read-out chain for a SiPM detector is made of different steps. This program aims to produce only a fast and rough simulation of the photon detection on SiPM sensors. Among all scintillation photons produced, the ones which are effectively detected constitute only a small fraction. Supposing that the propagation of the photons has been already simulated, those photons which manage to reach the walls of the detector may or may not be detected.
 
 The limiting factors I considered for the simulation are:
 * photons do not hit a camera
@@ -92,8 +92,7 @@ The limiting factors I considered for the simulation are:
 
 Few more words about the last point: in this simulation I assumed that when a photon is detected it produces a signal of amplitude 1 (a.u.), which can than have some osillations in gain; to take into account this fact I introduced a gaussian 'smearing' on the photon amplitude, with $\sigma = 0.10$. In practice I skipped all the processing of the real signal waveform, but again, the aim of the program is to have a fast simulation and this step would have been computationally very expensive. 
 
-At the end the program gives in output the distribution of photons on each camera, so that we are able then to compare the total number of detected photons with the energy deposited by charged particles.
-.%
+At the end the program gives in output the distribution of photons on each camera, so that we are able then to compare the total number of detected photons with the energy deposited by charged particles. -->
 
 # Before starting
 
