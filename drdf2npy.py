@@ -33,12 +33,12 @@ if __name__ == '__main__':
     #print('Run', run, 'with', len(rundata), 'events')
     #print(' with geometry', rundata.georef)
     for event, eventdata in rundata.items():
-      print('Event', event, 'with', len(eventdata), 'images')
+      #print('Event', event, 'with', len(eventdata), 'images')
       for src, image in eventdata.items():
-        print('Image from source', src, 'with size', image.pixels[:,:,0])
-        #data_from_cameras = np.append(data_from_cameras, image.pixels[:,:,1])
+        #print('Image from source', src, 'with size', image.pixels[:,:,0])
+        data_from_cameras = np.append(data_from_cameras, image.pixels[:,:,1])
 
-  #data_from_cameras.reshape(-1, 76, 1024)
+  # data_from_cameras.reshape(-1, 76, 1024)
   
   print(data_from_cameras.shape)
-  #np.save('blind_cameras_dataset/simulation'+str(simu_num)+'.npy', data_from_cameras)
+  np.save('blind_cameras_dataset/simulation_'+str(simu_num)+'.npy', data_from_cameras)

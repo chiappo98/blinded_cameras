@@ -23,5 +23,5 @@ if __name__ == '__main__':
 
         inner_ph = np.append(inner_ph, inner_ph_tmp)
     #np.save('/storage/gpfs_data/neutrino/SAND-LAr/SAND-LAr-OPTICALSIM-PROD/GRAIN/blindcam/inner_ph'+str(simu_num)+'.npy', inner_ph)
-    #np.save('/inner_ph'+str(simu_num)+'.npy', inner_ph)
-    
+    np.save('/inner_ph_'+str(simu_num)+'.npy', inner_ph)
+     
