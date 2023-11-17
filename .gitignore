@@ -94,3 +94,7 @@ ratio.png
 preprocessing.ipynb
 preprocessing.py
 supervised_cnn_1.ipynb
+preprocessing.ipynb
+sensors2npy.py
+drdf2npy.py
+unsupervised_learning.ipynb
