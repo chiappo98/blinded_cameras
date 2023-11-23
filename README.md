@@ -54,7 +54,7 @@ The aim of GRAIN is to reconstruct the trajectories of secondary particles produ
 One of the factors that could lead to misreconstruction of trajectories is the presence of "dazzled" cameras, i.e. the fact that a particle could cross a SiPM matrix or could even releases photons in the small gap between the mask and the matrix. In both cases the signal detected by the camera cannot be used in the track-reconstruction process. The peculiar pattern generated on the matrices is shown HERE. 
 
 <p align = "center">
-<img src="/images/grainCam.png" width="300" class="center"/>
+<img src="/images/dazzledCam.png" width="300" class="center"/>
 </p>
 
 <p align = "center">
