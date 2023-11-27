@@ -54,7 +54,7 @@ The aim of GRAIN is to reconstruct the trajectories of secondary particles produ
 One of the factors that could lead to misreconstruction of trajectories is the presence of "dazzled" cameras, i.e. the fact that a particle could cross a SiPM matrix or could even releases photons in the small gap between the mask and the matrix. In both cases the signal detected by the camera cannot be used in the track-reconstruction process. The peculiar pattern generated on the matrices is shown HERE. 
 
 <p align = "center">
-<img src="/images/dazzledCam.png" width="300" class="center"/>
+<img src="/images/dazzledCam.png" width="800" class="center"/>
 </p>
 
 <p align = "center">
@@ -113,27 +113,27 @@ mkdir /path/to/cloned/repository/dazzled_camera_dataset
 At this point, navigate to the folder, and use the following commands:
 * inner_ph_11.npy (907 KB)
 ```
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mhChJm1__PEa0DA_aEdEBrrcdMYDSWjK' -O sensors.root
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1dpQnNqO8nOl5ySE0A5AFdQKZHF6eXXw3' -O inner_ph_11.npy
 ```
 * simulation_11.npy (464 MB)
 ```
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1lganVEn5Y7uXqpNkoSPi2tcJ88k84JsD' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1lganVEn5Y7uXqpNkoSPi2tcJ88k84JsD" -O sensors.root && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1YGGBfQVbiQVzuggrm3NzRwGYT6iKy1g1' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1YGGBfQVbiQVzuggrm3NzRwGYT6iKy1g1" -O simulation_11.npy && rm -rf /tmp/cookies.txt
 ```
 * inner_ph_22.npy (938 KB)
 ```
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mhChJm1__PEa0DA_aEdEBrrcdMYDSWjK' -O sensors.root
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1CxSrNbynVKtFhQ3wKBS8asp1n5pNmd3R' -O inner_ph_22.npy
 ```
 * simulation_22.npy (480 MB)
 ```
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1lganVEn5Y7uXqpNkoSPi2tcJ88k84JsD' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1lganVEn5Y7uXqpNkoSPi2tcJ88k84JsD" -O sensors.root && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1NenNQ9XAw3a_rHcCeT-QQsliWLfr1FiS' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1NenNQ9XAw3a_rHcCeT-QQsliWLfr1FiS" -O simulation_22.npy && rm -rf /tmp/cookies.txt
 ```
 * inner_ph_33.npy (938 KB)
 ```
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mhChJm1__PEa0DA_aEdEBrrcdMYDSWjK' -O sensors.root
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Zy0N9lwQztPwuk3jofZAaWV5uUWg8_g9' -O inner_ph_33.npy
 ```
 * simulation_33.npy (480 MB)
 ```
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1lganVEn5Y7uXqpNkoSPi2tcJ88k84JsD' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1lganVEn5Y7uXqpNkoSPi2tcJ88k84JsD" -O sensors.root && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1qyznrKdBKlOZ9Uo-FAURa2sYp9i6yLJx' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1qyznrKdBKlOZ9Uo-FAURa2sYp9i6yLJx" -O simulation_33.npy && rm -rf /tmp/cookies.txt
 ```
 
 # Running the algorithms
