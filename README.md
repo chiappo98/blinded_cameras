@@ -88,9 +88,6 @@ In order to be able to run the algorithms, make sure the following requirements 
 - download the needed input files
 - have a sufficiently powerful machine (CPU cores, GPU, RAM) 
 
-### WARNING
-In the following sections I will always refer to job submission on the *neutrino-01* machine, which adopts the HTCondor batch system. However, users can obviously use different submit machines. Furthermore, if the batch system is different form HTCondor, the *launch_splitted_response.sh* shell script has to be modified to include the new submission command. -->
-
 ## Required softwares
 Pyhton3 has to be installed. Looking at the first lines of the notebooks in this repository, the users can check the additional modules which are needed. In particular I underline the mandatory installation of jupyter notebook and tensorflow.
 
@@ -137,4 +134,4 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 ```
 
 # Running the algorithms
-The Jupyter Notebook files can be easily executed
+The Jupyter Notebook files can be easily executed. Move to the cloned repository and open the notebook files.
